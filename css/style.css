@@ -1,0 +1,442 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 1000px;
+    height: 5000px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+
+p {
+    color: #fff;
+    font-size: 11px;
+    font-family: "RobotoLight";
+}
+
+h2 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "RobotoLight";
+    text-align: center;
+    margin: 40px;
+}
+
+.header {
+    background-image: url(../img/bg1.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    min-height: 800px;
+    min-width: 1170px;
+    position: relative;
+}
+
+.top-line {
+    height: 60px;
+    background-color: rgba(0,0,0,.7);
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+    z-index: 10;
+}
+
+.top200 {
+    height: 60px;
+}
+
+.wrap1000 {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 15px;
+}
+
+.logo a {
+    cursor: pointer;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 1px 0 0 30px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    font-family: "RobotoLight";
+}
+
+.nav ul li a:hover {
+    color: #FFCC00;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.quotations {
+    margin: 200px 30px 0 30px;
+    width: 300px;
+    display: inline-block;
+}
+
+.bad-script {
+    font-family: "BadScript";
+    font-size: 16px;
+}
+
+.author {
+    text-align: right;
+}
+
+.how_to_catch_me {
+    width: 360px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 15px;
+    background-color: rgba(0,0,0,.7);
+    padding: 1px 40px 40px 40px;
+}
+
+.how_to_catch_me p {
+    display: inline-block;
+}
+
+.how_to_catch_me .p1 {
+    min-width: 200px;
+}
+
+.input {
+    font-size: 11px;
+    border: none;
+    height: 20px;
+    width: 120px;
+} 
+
+.how_to_catch_me form .button {
+    margin: 30px 140px 5px 140px;
+    border: 1px solid #FFCC00;
+    background-color: transparent;
+    color: #FFCC00;
+    font-size: 11px;
+    font-family: "RobotoLight";
+    padding: 5px 10px;
+}
+
+.how_to_catch_me form .button:hover {
+    background-color: #FFCC00;
+    color: #000;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+
+.yellow {
+    color: #FFCC00 !important;
+}
+
+.shadow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-image: url(../img/shadow.png);
+}
+
+.yellow_header {
+    width: 225px;
+    height: 80px;
+    position: absolute;
+    background-color: #FFCC00;
+    left: 389px;
+    box-shadow: 0 0 20px rgba(0,0,0,.8);
+    top: -40px;
+}
+
+.yellow_header p {
+    color: #000;
+    font-size: 28px;
+    font-family: "RobotoRegular";
+    text-align: center;
+    margin: 20px;
+}
+
+.my_photo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+.about_me2 {
+    position: absolute;
+    top: 220px;
+    left: 224px;
+}
+
+.who_am_i {
+    float: right;
+    width: 303px;
+    margin-top: 200px;
+    padding-right: 15px;
+}
+
+.who_am_i p {
+    color: #000;
+    font-size: 11px;
+    font-family: "RobotoLight";
+    margin-bottom: 50px;
+}
+
+.my_skills {
+    background-image: url(../img/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 800px;
+    min-width: 1170px;
+    position: relative;
+}
+
+.first_floor {
+    padding-top: 35px;
+}
+
+.my_skills .about_my_skills .first_floor .ams {
+    color: #FFCC00;
+    font-size: 28px;
+    font-family: "RobotoLight";
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+.my_skills .about_my_skills .second_floor .ams {
+    color: #FFCC00;
+    font-size: 28px;
+    font-family: "RobotoLight";
+    text-align: center;
+    margin-top: -180px;
+    margin-left: 10px;
+}
+
+.about_my_skills .first_floor p {
+    color: #FFCC00;
+    font-size: 28px;
+    font-family: "RobotoLight";
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.about_my_skills .second_floor p {
+    color: #FFCC00;
+    font-size: 28px;
+    font-family: "RobotoLight";
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.html {
+    background-image: url(../img/html.png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 100px 50px 100px 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.css {
+    background-image: url(../img/css.png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 100px 50px 100px 50px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.photoshop {
+    background-image: url(../img/photoshop.png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 100px 100px 100px 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.blender {
+    background-image: url(../img/blender.png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0px 50px 100px 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.php {
+    background-image: url(../img/php.png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 50px 100px 50px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.js {
+    background-image: url(../img/js.png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 100px 100px 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.about_me {
+    position: relative;
+}
+
+.wrap1170 {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+
+.yh1170 {
+    width: 225px;
+    height: 80px;
+    position: absolute;
+    background-color: #FFCC00;
+    left: 475px;
+    box-shadow: 0 0 20px rgba(0,0,0,.8);
+    top: -40px;
+}
+
+.portfolio {
+    position: relative;
+    min-height: 1950px;
+    margin-bottom: 0px;
+}
+
+.projects a {
+    display: inline-block;
+    position: absolute;
+}
+
+.projects {
+    position: relative;
+    padding-top: 100px;
+}
+
+.item1 {
+    
+}
+
+.item2 {
+    left: 390px;
+}
+
+.item3 {
+    left: 780px;
+}
+
+.item4 {
+    top: 550px;
+}
+
+.item5 {
+    top: 780px;
+}
+
+.item6 {
+    left: 780px;
+    top: 1055px;
+}
+
+.item7 {
+    top: 1010px;
+}
+
+.item8 {
+    left: 780px;
+    top: 1285px;
+}
+
+.item9 {
+    left: 390px;
+    top: 1590px;
+}
+
+.item10 {
+    top: 1155px;
+    left: 390px;
+}
+
+.resume {
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-width: 1170px;
+    min-height: 800px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.yh7 {
+    top: -140px;
+}
+
+.list {
+    margin: 100px auto;
+    background-color: rgba(0,0,0,.7);
+    padding: 30px 50px;
+    width: 940px;
+}
+
+h3 {
+    color: #FFCC00;
+    font-size: 12px;
+    font-family: "RobotoRegular";
+    text-align: center;
+}
+
+h4 {
+color: #fff;
+font-size: 11px;
+font-family: "RobotoRegular";
+display: inline-block;
+min-width: 140px;
+font-weight: normal;
+}
+
+.resume .column p {
+    color: #fff;
+    font-size: 11px;
+    font-family: "RobotoLight";
+    display: inline-block;
+}
+
+h5 {
+    color: #fff;
+    font-size: 11px;
+    font-family: "RobotoLight";
+}
+
+.column {
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    margin: 15px;
+}
